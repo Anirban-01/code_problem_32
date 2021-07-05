@@ -1,0 +1,13 @@
+# Write a Python program to solve (x + y) * (x + y).
+
+
+def math_problem():
+    x = int(input('Input value of x: '))
+    y = int(input('Input value of y: '))
+
+    result = (x + y) * (x + y)
+
+    print(result)
+
+
+math_problem()
